@@ -1065,6 +1065,12 @@
       </div>
     </div>
 
+    <!-- Upload Highlight CTA -->
+    <label for="home-upload-input" style="display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:14px;background:linear-gradient(135deg,#FF0099,#cc007a);border-radius:14px;color:#fff;font-size:14px;font-weight:900;letter-spacing:1px;text-transform:uppercase;cursor:pointer;margin-bottom:16px;box-shadow:0 0 20px rgba(255,0,153,0.4);">
+      <span style="font-size:20px;">📤</span> Upload Your Highlight
+    </label>
+    <input type="file" id="home-upload-input" accept="video/*" multiple style="display:none;" onchange="handleFilmUpload(event)"/>
+
     <!-- Featured Highlight -->
     <div class="home-section-label">Featured Highlight</div>
     <div class="home-featured-clip">
@@ -2230,7 +2236,7 @@
   <section class="tab-panel" id="panel-film">
     <div class="film-header">
       <div class="section-title" style="margin-bottom:0;">Film <span>Room</span></div>
-      <label class="film-upload-btn" for="film-upload-input">&#43; Upload</label>
+      <label class="film-upload-btn" for="film-upload-input" style="font-size:13px;padding:9px 20px;box-shadow:0 0 14px rgba(255,0,153,0.4);">📤 Upload</label>
       <input type="file" id="film-upload-input" accept="video/*" multiple style="display:none;" onchange="handleFilmUpload(event)"/>
     </div>
 
