@@ -1,9 +1,9 @@
 /* AR-EMPYR8 (AE8) — Service Worker */
-const CACHE_NAME = 'ae8-v2';
+const CACHE_NAME = 'ae8-v3';
 const PRECACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
+  './',
+  './index.html',
+  './manifest.json',
 ];
 
 /* Install: cache app shell */
